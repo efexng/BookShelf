@@ -1,20 +1,20 @@
-# BookShelf
+# # BookShelf
 
-A simple **Express.js + EJS** web application for managing books and authors.
-This project follows a classic **MVC (Model–View–Controller)** structure and was built as a learning/demo project.
+A **server-side rendered Express.js + EJS** web application for managing books and authors.
+This project follows a classic **MVC (Model–View–Controller)** structure and focuses on routing, templating, and UI rendering.
 
 ---
 
 ## 🧠 Project Overview
 
-BookShelf is a server-side rendered Node.js application that allows users to:
+BookShelf is a Node.js web application that demonstrates:
 
-* View a homepage with recent books
-* Manage books and authors (CRUD functionality)
-* Render dynamic pages using EJS templates
-* Serve static assets (CSS, images)
+* Server-side rendering with EJS
+* Express routing and middleware
+* Structured views with layouts and partials
+* CRUD-style pages for books and authors (UI-focused)
 
-> ⚠️ **Note:** The project was originally designed to use MongoDB (via Mongoose). For preview/UI purposes, database functionality can be disabled or mocked.
+This repository is primarily intended to **preview layout, navigation, and page structure** rather than persistence.
 
 ---
 
@@ -31,6 +31,7 @@ BookShelf is a server-side rendered Node.js application that allows users to:
 * **Dev Tools:**
 
   * nodemon
+  * dotenv
 
 ---
 
@@ -90,14 +91,11 @@ This allows you to view layouts, styling, and page structure without setup compl
 
 ---
 
-## 🗄️ Database (Optional)
+## 🗄️ Data Storage
 
-Originally designed to work with:
+This project does **not require a database** to run.
 
-* **MongoDB**
-* **Mongoose (ODM)**
-
-If re-enabled, the app supports full CRUD operations for books and authors.
+All pages, routes, and layouts can be rendered without persistence. Any database-related files (such as models) are present only for structural completeness and learning purposes.
 
 ---
 
